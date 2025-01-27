@@ -1,12 +1,16 @@
 body {
     text-align: center;
+    background-color: #dff7f3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
     font-size: 10px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
