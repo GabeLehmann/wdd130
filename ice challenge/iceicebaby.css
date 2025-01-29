@@ -1,0 +1,32 @@
+body {
+    background-color: #5CA0D7;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+h1 {
+    color: white;
+    
+}
+
+h1:hover {
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+ol {
+    text-align: left;
+    font-weight: bolder;
+}
