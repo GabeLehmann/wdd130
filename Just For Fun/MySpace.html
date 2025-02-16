@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySpace Throwback</title>
+    <style>
+        body {
+            background: url('https://www.toptal.com/designers/subtlepatterns/uploads/dark-denim.png');
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 800px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            border: 3px solid #ff69b4;
+        }
+        .sidebar {
+            width: 200px;
+            float: left;
+            text-align: center;
+        }
+        .main-content {
+            margin-left: 220px;
+        }
+        .marquee {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff69b4;
+        }
+        .friends {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .friend {
+            width: 80px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .friend img {
+            width: 80px;
+            height: 80px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img class="profile-pic" src="https://via.placeholder.com/150" alt="Profile Picture">
+            <p>Username: <strong>RetroVibes</strong></p>
+            <p>"Just living my best MySpace life"</p>
+        </div>
+        <div class="main-content">
+            <marquee class="marquee">Welcome to my totally rad MySpace page! ✨</marquee>
+            <h2>About Me</h2>
+            <p>Hey! I'm just a nostalgic internet surfer who misses the good old days of customizing profiles with HTML & CSS.</p>
+            <h2>Top Friends</h2>
+            <div class="friends">
+                <div class="friend">
+                    <img src="https://via.placeholder.com/80" alt="Friend 1">
+                    <p>Tom</p>
+                </div>
+                <div class="friend">
+                    <img src="https://via.placeholder.com/80" alt="Friend 2">
+                    <p>Ashley</p>
+                </div>
+                <div class="friend">
+                    <img src="https://via.placeholder.com/80" alt="Friend 3">
+                    <p>Chris</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
