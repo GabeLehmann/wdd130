@@ -128,9 +128,46 @@ h1 {
 footer {
     background: #333;
     color: white;
-    text-align: center;
-    padding: 20px;
+    padding: 20px 50px;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+footer .logo {
+    flex: 1;
+    text-align: left;
+}
+
+footer .social-icons {
+    flex: 1;
+    text-align: center;
+}
+
+footer .site-plan {
+    flex: 1;
+    text-align: right;
+}
+
+footer p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.site-plan a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.site-plan :hover {
+    color: #ffcc00;
 }
 
 .social-icons img {
