@@ -156,3 +156,60 @@ footer p {
 .social-icons img:hover {
     transform: scale(1.1);
 }
+
+/*Mobile View*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .intro {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    footer .logo,
+    footer .social-icons,
+    footer .site-plan {
+        text-align: center;
+        flex: none;
+    }
+}
