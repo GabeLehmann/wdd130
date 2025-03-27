@@ -11,6 +11,7 @@
         <div class="logo">
             <a href="index.html"><img src="images/Logo2.png" height="100" alt="Home"></a>
         </div>
+        <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -79,5 +80,13 @@
         </div>
         <p>© 2025 Gabriel Lehmann.</p>
     </footer>
+    <script>
+        const toggleBtn = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('nav ul');
+    
+        toggleBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+    </script>
 </body>
 </html>
